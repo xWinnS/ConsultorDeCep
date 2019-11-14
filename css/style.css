@@ -1,0 +1,51 @@
+@charset "UTF";
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Literata', serif;
+}
+p{
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Ocultado{
+    display: none;
+}
+.Visivel{
+    display: block;
+}
+#divBusca{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#btn{
+    margin-top: 8px;
+}
+
+#DivResposta{
+    font-weight: bold;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: rgba(91, 109, 65, 0.151);
+}
+#DivInexistente{
+    font-weight: bold;
+    border: 1px solid rgb(143, 141, 12);
+    border-radius: 10px;
+    background-color: rgba(234, 238, 20, 0.199);
+    padding: 10px 0px 10px 15px;
+}
+#DivInvalida{
+    font-weight: bold;
+    border: 1px solid rgb(117, 5, 5);
+    border-radius: 10px;
+    background-color: rgba(231, 20, 5, 0.199);
+    padding: 10px 0px 10px 15px;
+}
